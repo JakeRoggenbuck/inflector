@@ -68,7 +68,7 @@ def verb(stem):
 	if stem[-1] in ['s', 'k', vowel_list, 'n']:
 		pl = 't'
 	else:
-		pl - 'yt'
+		pl = 'yt'
 	present_list = [stem + 'se', stem + 'en', stem, stem + pl, stem + 'on', stem + pl]
 	past_list = [stem + 'sen', stem + 'ed', stem + 'píen', stem + 'in', stem + 'o', stem + 'ton']
 	if [tense, aspect] == ['present', 'one-time']:
